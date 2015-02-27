@@ -1,0 +1,23 @@
+{
+  "name": "x-input",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jonataa/mederi-coding-dojo",
+  "authors": [
+    "Jonata Weber <jonataa@gmail.com>",
+    "Thiago Mascarenhas <thiago_si@ymail.com>",
+    "Ricardo Tássio <ricardotassio@gmail.com>"
+  ],
+  "description": "An smart input component",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "web-component-tester": "Polymer/web-component-tester#~2.2.4",
+    "polymer": "Polymer/polymer#~0.5.5"
+  }
+}

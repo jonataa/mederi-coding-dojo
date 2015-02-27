@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="../bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <script src="../bower_components/web-component-tester/browser.js"></script>
+  <link rel="import" href="../x-input.html">
+</head>
+<body>
+  
+  <x-input value="Foo Bar"></x-input>
+
+  <script>
+    var input = document.querySelector('x-input');
+
+    suite('<x-input>', function() {
+      test('exists autocomplete attribute', function() {
+        assert.isTrue(input.autocomplete);
+      });
+      test('value is equal to Foo Bar', function() {
+        assert.equal(input.value, 'Foo Bar');
+      });
+    });
+  </script>
+
+</body>
+</html>
