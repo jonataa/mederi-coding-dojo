@@ -1,4 +1,5 @@
-# <x-input>
+# x-input
+Um componente Polymer com recursos de autocomplete
 
 ## Running the tests
 ```shell
